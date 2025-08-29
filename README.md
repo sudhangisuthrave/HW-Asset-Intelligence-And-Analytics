@@ -1,4 +1,4 @@
-# CSAM Inventory
+# Asset Inventory
 
 ## Installation of Dependencies
 
@@ -8,7 +8,7 @@ poetry install
 
 ### SSL/TLS Certificates
 
-If installing dependencies while connect to the ED VPN, the 
+If installing dependencies while connect to the VPN, the 
 `REQUESTS_CA_BUNDLE` environment variable must be set to point 
 to a file containing the chain of certificates used by the firewall
 in place of the actual certificates for pypi.org. To do this in
